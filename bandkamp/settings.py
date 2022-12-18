@@ -33,7 +33,7 @@ SECRET_KEY = os.getenv("SECRET_KEY", get_random_secret_key())
 DEBUG = os.getenv("DEBUG", False)
 
 ALLOWED_HOSTS = [
-    "https://bandkampapi-production.up.railway.app/",
+    "bandkampapi-production.up.railway.app",
     "0.0.0.0",
 ]
 
